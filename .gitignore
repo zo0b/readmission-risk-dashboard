@@ -1,0 +1,19 @@
+# Raw data / big outputs
+data/
+outputs/*.csv
+outputs/*.parquet
+
+# Allow only the small demo sample
+!outputs/scored_sample.csv
+
+# Model artifacts (optional)
+models/
+*.joblib
+
+# Python/Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
+.DS_Store
